@@ -1,0 +1,133 @@
+.page-wrapper {
+  display: flex;
+}
+.pageTitle {
+  text-align: left;
+  font-size: xx-large;
+  margin: 60px 30px 20px 30px;
+}
+.sideBar {
+  height: 100%;
+  width: 250px;
+}
+.nav {
+  text-align: left;
+  height: 100%;
+  line-height: 4.7em;
+  overflow: auto;
+  font-size: 20px;
+}
+hr {
+  border-top: 1px solid tomato;
+  width: 70px;
+  float: left;
+}
+#navbar li {
+  list-style: none;
+  display: block;
+  color: #383838;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 17%;
+}
+
+.headingSection h1 {
+  margin-top: 0;
+  font-size: 50px;
+}
+strike {
+  color: tomato;
+}
+.detailSection {
+  width: 15rem;
+  margin-left: auto;
+}
+.detailSection p {
+  margin-top: 0;
+}
+.btnCart {
+  border-radius: 16px;
+  background: crimson;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.topnav {
+  display: none;
+}
+.foodSection {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+.foodBox {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+  box-shadow: 5px 5px 5px 5px #f2f7f4;
+  border-radius: 20px;
+  width: 150px;
+  height: 180px;
+}
+.foodImg {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+}
+@media only screen and (max-width: 600px) {
+  .page-wrapper {
+    display: block;
+  }
+  .foodBox {
+    margin: 10px;
+    width: 130px;
+    height: 180px;
+  }
+  .detailSection {
+    width: 100%;
+    margin: auto;
+  }
+  .sideBar {
+    display: none;
+  }
+  .pageHeading {
+    margin: 0 auto;
+    padding: 14px 0;
+
+    justify-content: center;
+  }
+
+  .topnav {
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: tomato;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+}

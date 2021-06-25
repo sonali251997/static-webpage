@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Web page</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="topnav">
+        <a href="javascript:void(0);" class="active" onclick="myFunction()"
+          ><i class="fas fa-bars fa-3x"></i></a
+        >
+        
+        <div id="myLinks">
+          <a>About</a>
+          <a>Services</a>
+          <a>Cuisine</a>
+          <a>Gallery</a>
+          <a>Contact</a>
+          <a>Book</a>
+        </div>
+        <a class="icon"> <i class="fas fa-shopping-cart fa-3x"></i> </a>
+      </div>
+      <div class="sideBar">
+        <h1 class="pageTitle">Lorem <br />Ipsum</h1>
+        <nav id="navbar">
+          <ul class="nav">
+            <li>
+              <span style="color: red; text-decoration: line-through">
+                <span style="color: #383838">About</span>
+              </span>
+            </li>
+            <li>Services</li>
+            <li>Cuisine</li>
+            <li>Gallery</li>
+            <li>Contact</li>
+            <li>Book</li>
+          </ul>
+        </nav>
+        <button class="btnCart">Cart</button>
+      </div>
+      <div id="main-doc">
+        <div class="heading">
+          <div class="headingSection">
+            <h1>What are you <br />having for Lunch?</h1>
+          </div>
+          <div class="detailSection">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab
+              facilis voluptas et ipsum eos eius praesentium
+            </p>
+            <hr />
+          </div>
+        </div>
+        <div class="foodSection">
+          <div class="foodBox">
+            <img
+              class="foodImg"
+              src="https://lh3.googleusercontent.com/ksz1Txwisz2emMkhY0u-21mmhKZq6qxdWJYlDtuYa029M4JsoBpBGTwog1e8ZhyvYZKvdAY2G2SEYXyVQxxbmGurFg=w1000"
+              alt="taco"
+            />
+            <p>Mexican Taco</p>
+          </div>
+          <div class="foodBox">
+            <img
+              class="foodImg"
+              src="https://content3.jdmagicbox.com/comp/pune/p8/020pxx20.xx20.181114190702.m5p8/catalogue/cheesiano-pizza-pimpri-chinchwad-new-town-pune-pizza-outlets-yjw849s6vk.jpg"
+              alt="pizza"
+            />
+            <p>Farmhouse Pizza</p>
+          </div>
+          <div class="foodBox">
+            <img
+              class="foodImg"
+              src="https://cdn.whatsgabycooking.com/wp-content/uploads/2013/03/WGC-CHEDDAR-JALAPENO-BURGER-copy-2.jpg"
+              alt="burger"
+            />
+            <p>Chicken Burger</p>
+          </div>
+          <div class="foodBox">
+            <img
+              class="foodImg"
+              src="https://www.sargento.com/assets/Uploads/Recipe/Image/Nachos_0__FillWzExNzAsNTgzXQ.jpg"
+              alt="nachos"
+            />
+            <p>Loaded Nachos</p>
+          </div>
+          <div class="foodBox">
+            <img
+              class="foodImg"
+              src="https://static.toiimg.com/thumb/53886706.cms?width=1200&height=900"
+              alt="noodles"
+            />
+            <p>Hakka Noodles</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
